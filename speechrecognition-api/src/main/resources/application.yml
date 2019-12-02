@@ -1,0 +1,11 @@
+logging.level.xyz.kurakov.speechrecognitionapi.clients.SpeechrecognitionClient: DEBUG
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: full
+speechrecognition:
+  iam: CC8xiOLkaGAeaduDP5s5wPkCdKA
+  lang: en-US
